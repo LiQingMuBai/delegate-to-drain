@@ -1,0 +1,13 @@
+{
+  "name": "@demo/contracts",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "compile": "hardhat compile",
+    "export": "node ./scripts/export-artifacts.mjs",
+    "build": "npm run compile && npm run export"
+  },
+  "devDependencies": {
+    "hardhat": "^3.0.0"
+  }
+}
